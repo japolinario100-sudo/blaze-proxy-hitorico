@@ -1,16 +1,16 @@
 {
   "name": "blaze-proxy-historico",
   "version": "1.0.0",
-  "description": "Servidor proxy para buscar histórico da Blaze",
+  "description": "Proxy para buscar histórico da Blaze",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "node-fetch": "^2.6.7"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
